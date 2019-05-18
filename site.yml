@@ -11,4 +11,6 @@
   roles:
     - { role: "Logstash" }
 
-test123
+- hosts: elk03_logstash02
+  roles:
+    - { role: "Logstash" }
