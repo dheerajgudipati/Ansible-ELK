@@ -10,3 +10,7 @@
 - hosts: elk03_logstash01
   roles:
     - { role: "Logstash" }
+
+- hosts: elk03_logstash02
+  roles:
+    - { role: "Logstash" }
